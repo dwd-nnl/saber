@@ -1,0 +1,444 @@
+➜  saber git:(main) flutter build macos
+Resolving dependencies...
+Downloading packages...
+  animations 2.1.1 (2.1.2 available)
+  assorted_layout_widgets 11.0.0 (12.0.0 available)
+  async 2.13.0 (2.13.1 available)
+  built_value 8.12.4 (8.12.5 available)
+  cupertino_icons 1.0.8 (1.0.9 available)
+  device_info_plus 11.5.0 (12.3.0 available)
+  dynamite_runtime 0.5.0+1 (0.6.0 available)
+  flutter_plugin_android_lifecycle 2.0.33 (2.0.34 available)
+  icons_launcher 3.0.3 (3.1.0 available)
+  injector 3.0.0 (4.0.0 available)
+  jni 0.14.2 (0.15.2 available)
+  meta 1.17.0 (1.18.2 available)
+  nextcloud 8.1.0 (9.0.0 available)
+  path_provider_android 2.2.22 (2.2.23 available)
+  pointycastle 3.9.1 (4.0.0 available)
+  sentry 9.15.0 (9.16.0 available)
+  sentry_flutter 9.15.0 (9.16.0 available)
+  sentry_logging 9.15.0 (9.16.0 available)
+  shared_preferences 2.5.4 (2.5.5 available)
+  shared_preferences_android 2.4.21 (2.4.23 available)
+  shared_preferences_platform_interface 2.4.1 (2.4.2 available)
+  test_api 0.7.10 (0.7.11 available)
+  timezone 0.9.4 (0.11.0 available)
+  url_launcher_android 6.3.28 (6.3.29 available)
+  vector_math 2.2.0 (2.3.0 available)
+  win32 5.15.0 (6.0.0 available)
+  win32_registry 2.1.0 (3.0.2 available)
+Got dependencies!
+27 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Running pod install...                                              3.5s
+/Users/devuser/.pub-cache/hosted/pub.dev/quill_native_bridge_macos-0.0.1/macos/quill_native_bridge_macos/Sources/quill_native_bridge_macos/QuillNativeBridgeImpl.swift:178:59: warning: expression implicitly coerced from 'PHObjectPlaceholder?' to 'Any'
+                            albumChangeRequest.addAssets([assetRequest.placeholderForCreatedAsset] as NSArray)
+                                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                            albumChangeRequest.addAssets([assetRequest.placeholderForCreatedAsset] as NSArray)
+                                                          ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                                       ?? <#default value#>
+                            albumChangeRequest.addAssets([assetRequest.placeholderForCreatedAsset] as NSArray)
+                                                          ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                                       !
+                            albumChangeRequest.addAssets([assetRequest.placeholderForCreatedAsset] as NSArray)
+                                                          ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                                       as Any
+/Users/devuser/.pub-cache/hosted/pub.dev/quill_native_bridge_macos-0.0.1/macos/quill_native_bridge_macos/Sources/quill_native_bridge_macos/QuillNativeBridgeImpl.swift:183:60: warning: expression implicitly coerced from 'PHObjectPlaceholder?' to 'Any'
+                            albumChangeRequest?.addAssets([assetRequest.placeholderForCreatedAsset] as NSArray)
+                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                            albumChangeRequest?.addAssets([assetRequest.placeholderForCreatedAsset] as NSArray)
+                                                           ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                                       ?? <#default value#>
+                            albumChangeRequest?.addAssets([assetRequest.placeholderForCreatedAsset] as NSArray)
+                                                           ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                                       !
+                            albumChangeRequest?.addAssets([assetRequest.placeholderForCreatedAsset] as NSArray)
+                                                           ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                                       as Any
+/Users/devuser/.pub-cache/hosted/pub.dev/quill_native_bridge_macos-0.0.1/macos/quill_native_bridge_macos/Sources/quill_native_bridge_macos/QuillNativeBridgeImpl.swift:102:19: warning: immutablevalue 'permissionDescription' was never used; consider replacing with '_' or removing it
+              let permissionDescription = infoPlist[permissionKey] as? String else {
+              ~~~~^~~~~~~~~~~~~~~~~~~~~
+              _
+/Users/devuser/.pub-cache/hosted/pub.dev/quill_native_bridge_macos-0.0.1/macos/quill_native_bridge_macos/Sources/quill_native_bridge_macos/QuillNativeBridgeImpl.swift:127:37: warning: no 'async' operations occur within 'await' expression
+                let currentStatus = await PHPhotoLibrary.authorizationStatus(for: accessLevel)
+                                    ^
+/Users/devuser/.pub-cache/hosted/pub.dev/quill_native_bridge_macos-0.0.1/macos/quill_native_bridge_macos/Sources/quill_native_bridge_macos/QuillNativeBridgeImpl.swift:144:37: warning: no 'async' operations occur within 'await' expression
+                let currentStatus = await PHPhotoLibrary.authorizationStatus()
+                                    ^
+/Users/devuser/.pub-cache/hosted/pub.dev/quill_native_bridge_macos-0.0.1/macos/quill_native_bridge_macos/Sources/quill_native_bridge_macos/QuillNativeBridgeImpl.swift:178:59: warning: expression implicitly coerced from 'PHObjectPlaceholder?' to 'Any'
+                            albumChangeRequest.addAssets([assetRequest.placeholderForCreatedAsset] as NSArray)
+                                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                            albumChangeRequest.addAssets([assetRequest.placeholderForCreatedAsset] as NSArray)
+                                                          ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                                       ?? <#default value#>
+                            albumChangeRequest.addAssets([assetRequest.placeholderForCreatedAsset] as NSArray)
+                                                          ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                                       !
+                            albumChangeRequest.addAssets([assetRequest.placeholderForCreatedAsset] as NSArray)
+                                                          ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                                       as Any
+/Users/devuser/.pub-cache/hosted/pub.dev/quill_native_bridge_macos-0.0.1/macos/quill_native_bridge_macos/Sources/quill_native_bridge_macos/QuillNativeBridgeImpl.swift:183:60: warning: expression implicitly coerced from 'PHObjectPlaceholder?' to 'Any'
+                            albumChangeRequest?.addAssets([assetRequest.placeholderForCreatedAsset] as NSArray)
+                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                            albumChangeRequest?.addAssets([assetRequest.placeholderForCreatedAsset] as NSArray)
+                                                           ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                                       ?? <#default value#>
+                            albumChangeRequest?.addAssets([assetRequest.placeholderForCreatedAsset] as NSArray)
+                                                           ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                                       !
+                            albumChangeRequest?.addAssets([assetRequest.placeholderForCreatedAsset] as NSArray)
+                                                           ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                                       as Any
+/Users/devuser/.pub-cache/hosted/pub.dev/quill_native_bridge_macos-0.0.1/macos/quill_native_bridge_macos/Sources/quill_native_bridge_macos/QuillNativeBridgeImpl.swift:102:19: warning: immutablevalue 'permissionDescription' was never used; consider replacing with '_' or removing it
+              let permissionDescription = infoPlist[permissionKey] as? String else {
+              ~~~~^~~~~~~~~~~~~~~~~~~~~
+              _
+/Users/devuser/.pub-cache/hosted/pub.dev/quill_native_bridge_macos-0.0.1/macos/quill_native_bridge_macos/Sources/quill_native_bridge_macos/QuillNativeBridgeImpl.swift:127:37: warning: no 'async' operations occur within 'await' expression
+                let currentStatus = await PHPhotoLibrary.authorizationStatus(for: accessLevel)
+                                    ^
+/Users/devuser/.pub-cache/hosted/pub.dev/quill_native_bridge_macos-0.0.1/macos/quill_native_bridge_macos/Sources/quill_native_bridge_macos/QuillNativeBridgeImpl.swift:144:37: warning: no 'async' operations occur within 'await' expression
+                let currentStatus = await PHPhotoLibrary.authorizationStatus()
+                                    ^
+/Users/devuser/.pub-cache/hosted/pub.dev/flutter_web_auth_2-5.0.1/macos/flutter_web_auth_2/Sources/flutter_web_auth_2/FlutterWebAuth2Plugin.swift:21:17: warning: variable 'sessionToKeepAlive' was written to, but never read
+            var sessionToKeepAlive: Any? // if we do not keep the session alive, it will get closed immediately while showing the dialog
+                ^
+/Users/devuser/.pub-cache/hosted/pub.dev/desktop_webview_window-0.2.3/macos/Classes/WebViewLayoutController.swift:90:39: warning: 'javaEnabled' was deprecated in macOS 10.15: Java is no longer supported
+    webView.configuration.preferences.javaEnabled = true
+                                      ^
+/Users/devuser/.pub-cache/hosted/pub.dev/desktop_webview_window-0.2.3/macos/Classes/WebViewLayoutController.swift:90:39: warning: 'javaEnabled' was deprecated in macOS 10.15: Java is no longer supported
+    webView.configuration.preferences.javaEnabled = true
+                                      ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/Performance/IO/Data+SentryTracing.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/Performance/IO/FileManager+SentryTracing.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Tools/LoadValidator.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/SentryAppState.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Core/Helper/SentryBinaryImageCache.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryBreadcrumbCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/SentryCrash/SentryCrashWrapper.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryDebugMetaCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentryDispatchQueueWrapper.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' maylead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentryDispatchSourceWrapper.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentryEnabledFeaturesBuilder.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Tools/SentryEnvelope.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Tools/SentryEnvelopeHeader.swift:1:22:warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Tools/SentryEnvelopeItem.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryEventCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryExceptionCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/UserFeedback/SentryFeedback.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/Performance/IO/SentryFileIOTracker+SwiftHelpers.swift:1:22: warning: using '@_implementationOnly' without enabling libraryevolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryFrameCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryGeoCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' maylead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Tools/SentryLogBatcher.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Tools/SentryLogger.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryMechanismCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryMechanismMetaCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryMessage.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentryMigrateSessionInit.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryNSErrorCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry'may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/SessionReplay/SentryReplayEvent.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/SessionReplay/SentryReplayRecording.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryRequestCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry'may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/SessionReplay/RRWeb/SentryRRWebEvent.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/SessionReplay/RRWeb/SentryRRWebOptionsEvent.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Persistence/SentryScopePersistentStore.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Persistence/SentryScopePersistentStore+Context.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Persistence/SentryScopePersistentStore+Extras.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Persistence/SentryScopePersistentStore+Fingerprint.swift:1:22: warning: using '@_implementationOnly' without enabling library evolutionfor 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Persistence/SentryScopePersistentStore+Helper.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Persistence/SentryScopePersistentStore+Tags.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Persistence/SentryScopePersistentStore+User.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentrySDK.swift:2:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentrySdkInfo.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Tools/SentrySDKLog+Configure.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may leadto instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentrySdkPackage.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentrySerializationSwift.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/SentrySession.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instabilityduring execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/SessionReplay/SentrySRDefaultBreadcrumbConverter.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryStacktraceCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentrySysctl.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryThreadCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Tools/SentryURLRequestFactory.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryUserCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/WatchdogTerminations/Processors/SentryWatchdogTerminationAttributesProcessor.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/Performance/IO/Data+SentryTracing.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/Performance/IO/FileManager+SentryTracing.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Tools/LoadValidator.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/SentryAppState.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Core/Helper/SentryBinaryImageCache.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryBreadcrumbCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/SentryCrash/SentryCrashWrapper.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryDebugMetaCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentryDispatchQueueWrapper.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' maylead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentryDispatchSourceWrapper.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentryEnabledFeaturesBuilder.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Tools/SentryEnvelope.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Tools/SentryEnvelopeHeader.swift:1:22:warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Tools/SentryEnvelopeItem.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryEventCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryExceptionCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/UserFeedback/SentryFeedback.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/Performance/IO/SentryFileIOTracker+SwiftHelpers.swift:1:22: warning: using '@_implementationOnly' without enabling libraryevolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryFrameCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryGeoCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' maylead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Tools/SentryLogBatcher.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Tools/SentryLogger.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryMechanismCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryMechanismMetaCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryMessage.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentryMigrateSessionInit.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryNSErrorCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry'may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/SessionReplay/SentryReplayEvent.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/SessionReplay/SentryReplayRecording.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryRequestCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry'may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/SessionReplay/RRWeb/SentryRRWebEvent.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/SessionReplay/RRWeb/SentryRRWebOptionsEvent.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Persistence/SentryScopePersistentStore.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Persistence/SentryScopePersistentStore+Context.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Persistence/SentryScopePersistentStore+Extras.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Persistence/SentryScopePersistentStore+Fingerprint.swift:1:22: warning: using '@_implementationOnly' without enabling library evolutionfor 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Persistence/SentryScopePersistentStore+Helper.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Persistence/SentryScopePersistentStore+Tags.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Persistence/SentryScopePersistentStore+User.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentrySDK.swift:2:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentrySdkInfo.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Tools/SentrySDKLog+Configure.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may leadto instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentrySdkPackage.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentrySerializationSwift.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/SentrySession.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instabilityduring execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/SessionReplay/SentrySRDefaultBreadcrumbConverter.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryStacktraceCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Helper/SentrySysctl.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryThreadCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Tools/SentryURLRequestFactory.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Protocol/Codable/SentryUserCodable.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/code/saber/macos/Pods/Sentry/Sources/Swift/Integrations/WatchdogTerminations/Processors/SentryWatchdogTerminationAttributesProcessor.swift:1:22: warning: using '@_implementationOnly' without enabling library evolution for 'Sentry' may lead to instability during execution
+@_implementationOnly import _SentryPrivate
+                     ^
+/Users/devuser/.pub-cache/hosted/pub.dev/flutter_web_auth_2-5.0.1/macos/flutter_web_auth_2/Sources/flutter_web_auth_2/FlutterWebAuth2Plugin.swift:21:17: warning: variable 'sessionToKeepAlive' was written to, but never read
+            var sessionToKeepAlive: Any? // if we do not keep the session alive, it will get closed immediately while showing the dialog
+                ^
+/Users/devuser/.pub-cache/hosted/pub.dev/sentry_flutter-9.15.0/macos/sentry_flutter/Sources/sentry_flutter/SentryFlutterPlugin.swift:218:64: warning: 'integrations' is deprecated: Setting `SentryOptions.integrations` is deprecated. Integrations should be enabled or disabled using their respective `SentryOptions.enable*` property.
+            if let integrations = PrivateSentrySDKOnly.options.integrations {
+                                                               ^
+/Users/devuser/.pub-cache/hosted/pub.dev/sentry_flutter-9.15.0/macos/sentry_flutter/Sources/sentry_flutter/SentryFlutterPlugin.swift:218:64: warning: 'integrations' is deprecated: Setting `SentryOptions.integrations` is deprecated. Integrations should be enabled or disabled using their respective `SentryOptions.enable*` property.
+            if let integrations = PrivateSentrySDKOnly.options.integrations {
+                                                               ^
+warning: Run script build phase 'Run Script' will be run during every build because it does not specify any outputs. To address this issue, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'Flutter Assemble' from project 'Runner')
+/Users/devuser/code/saber/macos/Pods/Pods.xcodeproj: warning: The macOS deployment target 'MACOSX_DEPLOYMENT_TARGET' is set to 10.11, but the range of supported deployment target versions is 10.13 to 26.2.99. (in target 'open_file_mac-open_file_mac_privacy' from project 'Pods')
+/Users/devuser/code/saber/macos/Pods/Pods.xcodeproj: warning: The macOS deployment target 'MACOSX_DEPLOYMENT_TARGET' is set to 10.11, but the range of supported deployment target versions is 10.13 to 26.2.99. (in target 'dynamic_color-dynamic_color_macos_privacy' from project 'Pods')
+Building macOS application...
+✓ Built build/macos/Build/Products/Release/Saber.app (107.4MB)
+➜  saber git:(main) ✗
